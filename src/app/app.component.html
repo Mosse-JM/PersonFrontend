@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <table style="width:100%">
+    <tr>
+      <th>Nome</th>
+      <th>Cognome</th> 
+      <th>CodiceFiscale</th>
+      <th>Ruolo</th>
+    </tr>
+    <tr *ngFor="let pip of personList">
+      <td>{{pip.nome}}</td>
+      <td>{{pip.cognome}}</td> 
+      <td>{{pip.codiceFiscale}}</td>
+      <td>{{pip.role}}</td>
+    </tr>
+  </table>
+</div>
+
+<router-outlet></router-outlet>
