@@ -3,5 +3,5 @@ export class Person {
     nome: string;
     cognome: string;
     codiceFiscale: string;
-    role:string;
+    ruolo:string;
 }
